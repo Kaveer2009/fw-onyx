@@ -26,12 +26,10 @@ Huge thanks for extracting and packaging the firmware.
 
 | HyperOS Version | Region | Android Base | Download |
 |----------------|--------|--------------|---------|
-| HyperOS 2.0.4 | Global | Android 15 | [Download](#) |
-| HyperOS 3.0.5 | Global | Android 16 | [Download](#) |
-| HyperOS 3.0.6 | Global | Android 16 | [Download](#) |
-| HyperOS 3.0.11 | China | Android 16 | [Download](#) |
-
-*(Download links will be updated soon)*
+| HyperOS 2.0.4 | Global | Android 15 | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/initial-firmware/fw_onyx_global_OS2_0_204_0_VOLMIXM.zip) |
+| HyperOS 3.0.5 | Global | Android 16 | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/initial-firmware/fw_onyx_global_OS3_0_5_0_WOLMIXM.zip) |
+| HyperOS 3.0.6 | Global | Android 16 | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/initial-firmware/fw_onyx_global_OS3_0_6_0_WOLMIXM.zip) |
+| HyperOS 3.0.11 | China | Android 16 | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/initial-firmware/fw_onyx_china_OS3.0.11.0.WOLCNXM.zip) |
 
 ---
 
@@ -41,6 +39,15 @@ Huge thanks for extracting and packaging the firmware.
 2. Boot into **custom recovery**.
 3. Flash the firmware zip.
 4. Reboot to system or flash your ROM.
+
+---
+
+## Support
+
+For help or issues, join:
+
+**Telegram Support Group:**  
+https://t.me/KaveerRomFactorySupport
 
 ---
 
