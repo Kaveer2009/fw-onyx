@@ -47,7 +47,7 @@ Huge thanks for extracting and packaging the firmware.
 For help or issues, join:
 
 **Telegram Support Group:**  
-https://t.me/KaveerRomFactorySupport
+**[Kaveer's Rom Factory Support](https://t.me/KaveerRomFactorySupport)**
 
 ---
 
