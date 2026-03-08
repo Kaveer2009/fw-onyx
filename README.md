@@ -1,16 +1,18 @@
 # POCO F7 (Onyx) – Flashable Firmware
 
+Device: **POCO F7 / Redmi Turbo 4 Pro**  
+Codename: **onyx**
+
 Flashable firmware packages for **POCO F7 / Redmi Turbo 4 Pro (onyx)**.
 
-These firmware packages are extracted and prepared for **custom ROM users** who need updated firmware without flashing full MIUI / HyperOS.
+These firmware packages are extracted from official releases and provided for custom ROM users who need updated firmware without flashing the full **MIUI / HyperOS** ROM.
 
 ---
 
 ## Credits
 
-Firmware prepared by **[@p_i_a_l99](https://t.me/p_i_a_l99)**  
-
-Huge thanks for extracting and packaging the firmware.
+- Firmware prepared by **[@p_i_a_l99](https://t.me/p_i_a_l99)**
+- Thanks for extracting and packaging the firmware.
 
 ---
 
@@ -35,10 +37,11 @@ Huge thanks for extracting and packaging the firmware.
 
 ## Installation
 
-1. Download the desired firmware version.
-2. Boot into **custom recovery**.
-3. Flash the firmware zip.
-4. Reboot to system or flash your ROM.
+1. Download the desired firmware zip.
+2. Boot into **custom recovery** (OrangeFox / TWRP).
+3. Flash the firmware package.
+4. Flash your **custom ROM** if required.
+5. Reboot to system.
 
 ---
 
@@ -51,11 +54,19 @@ For help or issues, join:
 
 ---
 
+> ⚠️ **Important**
+> 
+> - Only for **POCO F7 / Redmi Turbo 4 Pro (onyx)**  
+> - Do **NOT** flash on other devices.
+> - Firmware is recommended before flashing newer ROM builds.
+
+---
+
 ## Notes
 
-- Firmware is **device specific (onyx)**.  
-- Do **NOT** flash on other devices.  
-- Recommended before flashing newer custom ROM builds.
+- Firmware is extracted from official HyperOS builds.
+- Safe to flash on custom ROMs.
+- Flash only if your ROM requires updated firmware.
 
 ---
 
