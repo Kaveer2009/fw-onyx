@@ -1,3 +1,4 @@
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=Kaveer2009.fw-onyx)
 # 📱 POCO F7 (Onyx) — Flashable Firmware
 
 **Device:** POCO F7 / Redmi Turbo 4 Pro  
