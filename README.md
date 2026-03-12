@@ -1,68 +1,119 @@
-# POCO F7 (Onyx) – Flashable Firmware
+<div align="center">
 
-Device: **POCO F7 / Redmi Turbo 4 Pro**  
-Codename: **onyx**
+# 📱 POCO F7 (Onyx) — Flashable Firmware
 
-Flashable firmware packages for **POCO F7 / Redmi Turbo 4 Pro (onyx)**.
+**Device:** POCO F7 / Redmi Turbo 4 Pro  
+**Codename:** `onyx`
 
-These firmware packages are extracted from official releases and provided for custom ROM users who need updated firmware without flashing the full **MIUI / HyperOS** ROM.
+![HyperOS](https://img.shields.io/badge/HyperOS-Firmware-blue?style=for-the-badge&logo=xiaomi)
+![Android](https://img.shields.io/badge/Android-15%2F16-green?style=for-the-badge&logo=android)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+
+Flashable firmware packages for **POCO F7 / Redmi Turbo 4 Pro (onyx)**.  
+Extracted from official releases — for custom ROM users who need updated firmware without flashing the full **MIUI / HyperOS** ROM.
+
+</div>
 
 ---
 
-## Credits
+## 👤 Credits
 
-- Firmware prepared by **[@p_i_a_l99](https://t.me/p_i_a_l99)**
-- Thanks for extracting and packaging the firmware.
+Firmware prepared by **[@p_i_a_l99](https://t.me/p_i_a_l99)**  
+Thanks for extracting and packaging the firmware.
 
 ---
 
-## Supported Device
+## 📱 Supported Device
 
 | Device | Codename |
-|------|------|
+|--------|----------|
 | POCO F7 / Redmi Turbo 4 Pro | **onyx** |
 
 ---
 
-## Available Firmware
+## 📦 Available Firmware
 
-| HyperOS Version | Region | Android Base | Download |
-|----------------|--------|--------------|---------|
-| HyperOS 2.0.4 | Global | Android 15 | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/initial-firmware/fw_onyx_global_OS2_0_204_0_VOLMIXM.zip) |
-| HyperOS 3.0.5 | Global | Android 16 | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/initial-firmware/fw_onyx_global_OS3_0_5_0_WOLMIXM.zip) |
-| HyperOS 3.0.6 | Global | Android 16 | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/initial-firmware/fw_onyx_global_OS3_0_6_0_WOLMIXM.zip) |
-| HyperOS 3.0.11 | China | Android 16 | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/initial-firmware/fw_onyx_china_OS3.0.11.0.WOLCNXM.zip) |
+| HyperOS Version | Region | Android Base | Flash Method | Download |
+|----------------|--------|--------------|:------------:|----------|
+| HyperOS 2.0.4 | 🌐 Global | Android 15 | 🔁 Recovery Only | [⬇️ Download](https://github.com/Kaveer2009/fw-onyx/releases/download/initial-firmware/fw_onyx_global_OS2_0_204_0_VOLMIXM.zip) |
+| HyperOS 3.0.5 | 🌐 Global | Android 16 | 🔁 Recovery Only | [⬇️ Download](https://github.com/Kaveer2009/fw-onyx/releases/download/initial-firmware/fw_onyx_global_OS3_0_5_0_WOLMIXM.zip) |
+| HyperOS 3.0.6 | 🌐 Global | Android 16 | 🔁 Recovery Only | [⬇️ Download](https://github.com/Kaveer2009/fw-onyx/releases/download/initial-firmware/fw_onyx_global_OS3_0_6_0_WOLMIXM.zip) |
+| HyperOS 3.0.11 | 🇨🇳 China | Android 16 | 🔀 Hybrid | [⬇️ Download](https://github.com/Kaveer2009/fw-onyx/releases/download/initial-firmware/fw_onyx_china_OS3.0.11.0.WOLCNXM.zip) |
+
+### 🔀 What is Hybrid Firmware?
+
+> **Hybrid** firmware can be flashed in **two ways**:
+> - ✅ **Via Custom Recovery** (OrangeFox / TWRP) — traditional method
+> - ✅ **Via Fastboot** — without booting into recovery, using the included script
+>
+> This gives you flexibility depending on your device state and preferred flashing workflow.
+>
+> ⚠️ Only **HyperOS 3.0.11 (China)** is hybrid. All other firmware packages are **recovery-only**.
 
 ---
 
-## Installation
+## 🛠️ Installation
+
+Choose your preferred flashing method below:
+
+---
+
+### Method 1 — 🔁 Custom Recovery (OrangeFox / TWRP)
 
 1. Download the desired firmware zip.
 2. Boot into **custom recovery** (OrangeFox / TWRP).
-3. Flash the firmware package.
+3. Flash the firmware zip.
 4. Flash your **custom ROM** if required.
 5. Reboot to system.
 
 ---
 
-## Support
+### Method 2 — ⚡ Fastboot (Windows / Linux)
 
-For help or issues, join:
+> **Prerequisites:** ADB & Fastboot installed, USB debugging enabled, bootloader unlocked.
 
-**Telegram Support Group:**  
-**[Kaveer's Rom Factory Support](https://t.me/KaveerRomFactorySupport)**
+1. Download the desired firmware zip.
+2. **Extract** the zip to a folder on your PC.
+3. Boot your device into **Fastboot mode**:
+   ```
+   adb reboot bootloader
+   ```
+4. Connect your device via USB.
+5. Run the flash script:
+
+   **Windows:**
+   ```bat
+   flash_all.bat
+   ```
+
+   **Linux / macOS:**
+   ```bash
+   chmod +x flash_all.sh
+   ./flash_all.sh
+   ```
+
+6. Wait for all partitions to flash — **do not disconnect** the device.
+7. The device will reboot automatically when done.
+
+---
+
+## 💬 Support
+
+For help or issues, join our Telegram support group:
+
+**[👉 Kaveer's Rom Factory Support](https://t.me/KaveerRomFactorySupport)**
 
 ---
 
 > ⚠️ **Important**
-> 
-> - Only for **POCO F7 / Redmi Turbo 4 Pro (onyx)**  
+>
+> - Only for **POCO F7 / Redmi Turbo 4 Pro (onyx)**
 > - Do **NOT** flash on other devices.
 > - Firmware is recommended before flashing newer ROM builds.
 
 ---
 
-## Notes
+## 📝 Notes
 
 - Firmware is extracted from official HyperOS builds.
 - Safe to flash on custom ROMs.
@@ -70,11 +121,15 @@ For help or issues, join:
 
 ---
 
-## Disclaimer
+## ⚖️ Disclaimer
 
 I am **not responsible for bricked devices or data loss**.  
 Flash at your own risk.
 
 ---
 
-⭐ If this repo helps you, consider giving it a **star**.
+<div align="center">
+
+⭐ **If this repo helps you, consider giving it a star!** ⭐
+
+</div>
