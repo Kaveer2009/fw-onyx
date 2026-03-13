@@ -32,10 +32,11 @@ Thanks for extracting and packaging the firmware.
 
 | HyperOS Version | Region | Android Base | Flash Method | Download |
 |----------------|--------|--------------|:------------:|----------|
-| HyperOS 2.0.4 | Global | Android 15 | Recovery Only | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/initial-firmware/fw_onyx_global_OS2_0_204_0_VOLMIXM.zip) |
+| HyperOS 2.0.204 | Global | Android 15 | Hybrid | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/Update-firmware-2/FW_ONYX_GLOBAL_OS2.0.204.VOLMIXM.zip) |
+| HyperOS 3.0.3 | Global | Android 16 | Hybrid | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/Update-firmware-2/FW_ONYX_GLOBAL_OS3.0.3.VOLMIXM.zip) |
 | HyperOS 3.0.5 | Global | Android 16 | Recovery Only | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/initial-firmware/fw_onyx_global_OS3_0_5_0_WOLMIXM.zip) |
-| HyperOS 3.0.6 | Global | Android 16 | Recovery Only | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/initial-firmware/fw_onyx_global_OS3_0_6_0_WOLMIXM.zip) |
-| HyperOS 3.0.11 | China | Android 16 | Hybrid | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/initial-firmware/fw_onyx_china_OS3.0.11.0.WOLCNXM.zip) |
+| HyperOS 3.0.6 | Global | Android 16 | Hybrid | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/Update-firmware-2/FW_ONYX_GLOBAL_OS3.0.6.VOLMIXM.zip) |
+| HyperOS 3.0.11 | China | Android 16 | Hybrid | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/Update-firmware-2/FW_ONYX_CHINA_OS3.0.11.WOLCNXM.zip) |
 
 ### 🔀 What is Hybrid Firmware?
 
@@ -44,8 +45,6 @@ Thanks for extracting and packaging the firmware.
 > - ✅ **Via Fastboot** — without booting into recovery, using the included script
 >
 > This gives you flexibility depending on your device state and preferred flashing workflow.
->
-> ⚠️ Only **HyperOS 3.0.11 (China)** is hybrid. All other firmware packages are **recovery-only**.
 
 ---
 
@@ -69,7 +68,7 @@ Choose your preferred flashing method below.
 
 ### Method 2 — ⚡ Fastboot (Windows / Linux)
 
-> Only supported by **HyperOS 3.0.11 (China)**.  
+> Only supported by **Hybrid** firmware packages.  
 > **Prerequisites:** ADB & Fastboot installed, USB debugging enabled, bootloader unlocked.
 
 1. Download the firmware zip.
