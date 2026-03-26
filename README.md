@@ -34,6 +34,7 @@ Thanks for extracting and packaging the firmware.
 |----------------|--------|--------------|:------------:|----------|
 | HyperOS 2.0.204 | Global | Android 15 | Hybrid | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/Update-firmware-2/FW_ONYX_GLOBAL_OS2.0.204.VOLMIXM.zip) |
 | HyperOS 3.0.3 | India | Android 16 | Hybrid | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/Update-firmware-2/FW_ONYX_INDIA_OS3.0.3.VOLINXM.zip) |
+| HyperOS 3.0.3 | Global | Android 16 | Hybrid | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/Update-firmware-3/FW_ONYX_GLOBAL_OS3.0.3.0.WOLINXM.zip) |
 | HyperOS 3.0.5 | Global | Android 16 | Recovery Only | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/initial-firmware/fw_onyx_global_OS3_0_5_0_WOLMIXM.zip) |
 | HyperOS 3.0.6 | Global | Android 16 | Hybrid | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/Update-firmware-2/FW_ONYX_GLOBAL_OS3.0.6.VOLMIXM.zip) |
 | HyperOS 3.0.11 | China | Android 16 | Hybrid | [Download](https://github.com/Kaveer2009/fw-onyx/releases/download/Update-firmware-2/FW_ONYX_CHINA_OS3.0.11.WOLCNXM.zip) |
